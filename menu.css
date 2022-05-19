@@ -1,0 +1,23 @@
+.col-3 {
+    border: solid 1px green;
+}
+.menu { 
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    margin: 10%;
+    background-color: yellowgreen;
+    border-radius: 5px;
+} 
+p {
+    font-size: xx-large;
+}
+
+.col-10 { margin: 10px;}
+
+.footer {
+    font-size: x-small;
+    border-top: solid 1px;
+    margin: 2%;
+}
