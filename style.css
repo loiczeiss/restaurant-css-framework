@@ -47,14 +47,11 @@ h1 {
 
 @media screen and (min-width: 560px) {
     .jumbotron {
-        height: 175%;
         margin-top: 2%;
         border: solid 1px green;
         padding: 10px;
     }
-    .col-md-6 { 
-        padding-top: 275px;
-    }
+   
     a {
         font-size: 25px;
     }
