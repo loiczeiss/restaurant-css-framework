@@ -21,3 +21,65 @@ p {
     border-top: solid 1px;
     margin: 2%;
 }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+.col-10{
+    width: 78.6%;
+}
+  a {
+   font-size: 10.1px;
+      text-align: center;
+  }
+.text-center {
+    font-size: 30px;
+    margin: auto;
+}
+.color { 
+    color: blanchedalmond;
+}
+
+.col-2 {
+    border: solid 1px green;
+    width: fit-content;
+ 
+    }
+.container {
+    width: 100vw;
+}
+
+.jumbotron {
+    margin-top: 2%;
+    border: solid 1px green;
+    padding: 10px;
+}
+
+
+.col-12 {
+    padding-top: 15px;
+}
+
+img { width: 70%;
+display: flex;
+}
+h1 {
+    text-align: center;
+}
+
+@media screen and (min-width: 560px) {
+    .jumbotron {
+        height: 175%;
+        margin-top: 2%;
+        border: solid 1px green;
+        padding: 10px;
+    }
+    .col-md-6 { 
+        padding-top: 275px;
+    }
+    a {
+        font-size: 25px;
+    }
+
+}
+    
