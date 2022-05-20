@@ -1,3 +1,14 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+.col-10{
+    width: 78.6%;
+}
+  a {
+   font-size: 10.1px;
+      text-align: center;
+  }
 .text-center {
     font-size: 30px;
     margin: auto;
@@ -6,8 +17,10 @@
     color: blanchedalmond;
 }
 
-.col-3 {
+.col-2 {
     border: solid 1px green;
+    width: fit-content;
+ 
     }
 .container {
     width: 100vw;
@@ -15,9 +28,7 @@
 
 .jumbotron {
     margin-top: 2%;
-    background-image: url(vp8EPN.gif);
-    background-repeat: no-repeat;
-    background-size: 180%;
+
     background-position: center;
   
     border: solid 1px green;
@@ -32,15 +43,15 @@
 img { width: 70%;
 display: flex;
 }
-
+h1 {
+    text-align: center;
+}
 
 @media screen and (min-width: 560px) {
     .jumbotron {
         height: 175%;
         margin-top: 2%;
-        background-image: url(vp8EPN.gif);
-        background-repeat: no-repeat;
-        background-size: 100%;
+        
         background-position: center;
         
         border: solid 1px green;
@@ -48,6 +59,9 @@ display: flex;
     }
     .col-md-6 { 
         padding-top: 275px;
+    }
+    a {
+        font-size: 25px;
     }
 
 }
