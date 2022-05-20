@@ -6,12 +6,11 @@
 
 .col-3 {
     border: solid 1px green;
-    color
-    
-}
+    }
 .container {
     width: 100vw;
 }
+
 .jumbotron {
     margin-top: 2%;
     background-color: rgba(15, 187, 31, 0.43);
