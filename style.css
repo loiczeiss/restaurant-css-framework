@@ -13,7 +13,6 @@
 
 .jumbotron {
     margin-top: 2%;
-    background-color: rgba(15, 187, 31, 0.43);
     background-image: url(vp8EPN.gif);
     background-repeat: no-repeat;
     background-size: 180%;
@@ -37,7 +36,6 @@ display: flex;
     .jumbotron {
         height: 175%;
         margin-top: 2%;
-        background-color: rgba(15, 187, 31, 0.43);
         background-image: url(vp8EPN.gif);
         background-repeat: no-repeat;
         background-size: 100%;
