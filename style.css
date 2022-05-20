@@ -15,7 +15,10 @@
 .jumbotron {
     margin-top: 2%;
     background-color: rgba(15, 187, 31, 0.43);
-    
+    background-image: url(vp8EPN.gif);
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position: center;
     color: rgb(15, 94, 41);
     border: solid 1px green;
     padding: 10px;
@@ -30,8 +33,23 @@ img { width: 70%;
 display: flex;
 }
 
-#carouselExampleCaptions {
-    height: auto;
-  width: auto;
-  overflow: hidden;
+
+@media screen and (min-width: 560px) {
+    .jumbotron {
+        height: 175%;
+        margin-top: 2%;
+        background-color: rgba(15, 187, 31, 0.43);
+        background-image: url(vp8EPN.gif);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        color: rgb(15, 94, 41);
+        border: solid 1px green;
+        padding: 10px;
+    }
+    .col-md-6 { 
+        padding-top: 275px;
+    }
+
 }
+    
