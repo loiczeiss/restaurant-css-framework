@@ -30,7 +30,9 @@
 img { width: 70%;
 display: flex;
 }
-
+.color { 
+    color: blanchedalmond;
+}
 
 @media screen and (min-width: 560px) {
     .jumbotron {
