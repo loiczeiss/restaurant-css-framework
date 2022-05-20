@@ -28,9 +28,6 @@
 
 .jumbotron {
     margin-top: 2%;
-
-    background-position: center;
-  
     border: solid 1px green;
     padding: 10px;
 }
@@ -51,9 +48,6 @@ h1 {
     .jumbotron {
         height: 175%;
         margin-top: 2%;
-        
-        background-position: center;
-        
         border: solid 1px green;
         padding: 10px;
     }
