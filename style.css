@@ -15,10 +15,23 @@
 .jumbotron {
     margin-top: 2%;
     background-color: rgba(15, 187, 31, 0.43);
+    
+    color: rgb(15, 94, 41);
+    border: solid 1px green;
     padding: 10px;
 }
 
 
 .col-12 {
     padding-top: 15px;
+}
+
+img { width: 70%;
+display: flex;
+}
+
+#carouselExampleCaptions {
+    height: auto;
+  width: auto;
+  overflow: hidden;
 }
